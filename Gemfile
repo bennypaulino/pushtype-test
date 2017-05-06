@@ -18,6 +18,10 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # A ruby wrapper for ImageMagick
 gem "mini_magick"
+# Content Management System for Ruby on Rails
+gem 'push_type', '~> 0.11.0.beta.1'
+# User authentication solution for Rails with Warden
+gem 'devise', git: 'https://github.com/plataformatec/devise.git', branch: 'master'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
